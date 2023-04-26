@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+	font-family: "Lato";
+	color: #ffffff;
+	background-color: #000000;
+}
+
+[class*="__container"] {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.page__one {
+	margin-top: 25px;
+}
+
+.head__container {
+	margin-top: 25px;
+}
+.head__title {
+	font-size: 30px;
+}
+.head__subtitle {
+	font-size: 20px;
+}
+
+.table-style tr td {
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+.button {
+	margin-top: 15px;
+}
+
+.star {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: rgb(255, 251, 0);
+	animation-name: twinkle;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes twinkle {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
